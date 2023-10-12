@@ -142,6 +142,7 @@ h1 {
     padding: 10px;
     border-radius: 5px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .btn-large:hover {
@@ -267,6 +268,7 @@ h1 {
     width: 60px;
     margin-left: 20px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .btn-send {
@@ -296,4 +298,111 @@ footer img {
 footer p {
     color: white;
     font-size: 14px;
+}
+
+/* RESPONSIVE */
+
+/* Mobiles */
+
+@media screen and (min-width: 350px) and (max-width: 767px) {
+    
+
+    header {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    nav {
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 40px;
+        width: 90%;
+        left: 20%;
+    }
+
+    .btn {
+        width: 70px;
+    }
+
+    .courses-types {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .resources-quotes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quote-card {
+        width: 90%;
+        margin-bottom: 80px;
+    }
+
+    .contact-form {
+        width: 90%;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+}
+
+/* Tablettes */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    nav {
+        margin-bottom: 10px;
+    }
+
+    h1 {
+        font-size: 40px;
+        width: 90%;
+        left: 20%;
+    }
+
+    .btn {
+        width: 70px;
+        left: 45%;
+    }
+
+    .courses-types {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .course-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .resources-quotes {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .quote-card {
+        width: 90%;
+        margin-bottom: 80px;
+    }
+
+    .contact-form {
+        width: 90%;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
 }
